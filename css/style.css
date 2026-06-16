@@ -7,3 +7,32 @@
 body{
     background-color: bisque;
 }
+
+:root {
+  --cor-principal: #C72172;
+  --cor-fundo: #F4F4F4;
+  --cor-escura: #252B61;
+  --cor-texto: #101828;
+  --cor-suave: #92BDF6;
+  --fonte-padrao: 'Kumbh Sans', serif;
+  --branco:#ffffff;
+  --preto:#000000;
+  --cor-destaque-alternativa: #F0DA69;
+  /* para verificar utilização, alterar cores de acordo com o desenvolvimento
+  --cor-destaque: #ffc107;    
+  --cor-destaque-hover: #e0a800; 
+  --cor-fundo-cards: #f8f9fa; 
+  --cor-clara: #f4f4f4;
+  --cor-borda: #ddd;
+  --border-radius: 8px;
+  --transicao: all 0.3s ease;  */
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--fonte-padrao);
+}
