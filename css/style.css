@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: bisque;
+html {
+  scroll-behavior: smooth;
+  font-family: var(--fonte-padrao) IM !important;
 }
 
 :root {
@@ -14,13 +15,13 @@ body{
   --cor-escura: #252B61;
   --cor-texto: #101828;
   --cor-suave: #92BDF6;
-  --fonte-padrao: 'Kumbh Sans', serif;
+  --fonte-padrao: 'Kumbh Sans', sans-serif;
   --branco:#ffffff;
   --preto:#000000;
   --cor-destaque-alternativa: #F0DA69;
-  /* para verificar utilização, alterar cores de acordo com o desenvolvimento
-  --cor-destaque: #ffc107;    
-  --cor-destaque-hover: #e0a800; 
+  /* para verificar utilização, alterar cores de acordo com o desenvolvimento*/
+  --cor-destaque: #CC0A68;    
+ /* --cor-destaque-hover: #e0a800; 
   --cor-fundo-cards: #f8f9fa; 
   --cor-clara: #f4f4f4;
   --cor-borda: #ddd;
@@ -28,11 +29,26 @@ body{
   --transicao: all 0.3s ease;  */
 }
 
+/* INICIO HEADER */
 
-html {
-  scroll-behavior: smooth;
+header{
+  background-color: var(--cor-fundo);
 }
 
-body{
-    font-family: var(--fonte-padrao);
+.link-custom:hover{
+  color: var(--cor-principal) !important;
+  font-weight:500;
+  transition: color 0.3s ease-in-out;
+  transform: 0.3s ease-in-out;
 }
+
+.btn-custom {
+  background-color: var(--cor-principal) !important;
+  border: var(--cor-principal) !important;
+}
+
+.btn-custom:hover{
+  background-color: var(--cor-destaque) !important;
+}
+
+/* FIM HEADER */
