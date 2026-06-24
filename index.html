@@ -15,13 +15,13 @@
 </head>
 
 <body>
-    <div class="d-flex flex-column flex-wrap">
+    <div>
         <header class="p-3">
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                     <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-underline">
                         <svg class="bi me-2" width="110" height="72" role="img" aria-label="Bootstrap">
-                            <use xlink:href="\images\logo-sound-mind.jpg"></use>
+                            <use xlink:href="\images\logo-sound-mind.svg"></use>
                         </svg>
                     </a>
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
@@ -42,81 +42,169 @@
         <div class="container">
             <main>
                 <section>
-                    <div class="container my-1">
-                        <div class="p-5 text-center bg-body-tertiary rounded-3">
-                            <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo)" width="100" height="100"
-                                aria-hidden="true">
-                                <use xlink:href="#bootstrap"></use>
-                            </svg>
-                            <h1 class="text-body-emphasis">Encontre o suporte necessário para cuidar da sua saúde mental
-                                ✨</h1>
-                            <p class="col-lg-8 mx-auto fs-5 text-muted">
-                                This is a custom jumbotron featuring an SVG image at the top, some
-                                longer text that wraps early thanks to a responsive
-                                <code>.col-*</code> class, and a customized call to action.
-                            </p>
-                            <div class="d-inline-flex gap-2 mb-5">
-                                <button
-                                    class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill"
-                                    type="button">
-                                    Call to action
-                                    <svg class="bi ms-2" width="24" height="24" aria-hidden="true">
-                                        <use xlink:href="#arrow-right-short"></use>
-                                    </svg>
-                                </button>
-                                <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
-                                    Secondary link
-                                </button>
+                    <div class="my-1 position-relative banner-custom">
+                        <div class="rounded-3 text-end">
+                            <!-- bg-body-tertiary -->
+                            <div
+                                class="d-flex flex-column text-center p-2 justify-content-between align-items-center banner-custom-text position-absolute gap-5">
+                                <h1 class="text-body-emphasis">Encontre o suporte <br> necessário <br> para cuidar da
+                                    sua saúde <br>
+                                    mental
+                                    ✨</h1>
+                                <div class="d-inline-flex gap-2">
+                                    <button class="btn btn-primary btn-custom text-center" type="button">
+                                        Agendar demonstração
+                                    </button>
+                                </div>
                             </div>
+                            <svg class="bi mb-0 mt-4 mr-0" style="color: var(--bs-indigo)" width="750" height="690"
+                                aria-hidden="true">
+                                <use class="p-2" xlink:href="\images\image-central-index.svg"></use>
+                            </svg>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <h2 class="text-body-emphasis">Conheça os profissionais</h2>
+                    <h2 class="text-center mt-4 h2-filter-custom">Conheça os profissionais</h2>
                     <div class="d-flex gap-2 justify-content-center py-5">
-                        <span
-                            class="p-3 badge bg-primary-subtle border border-primary-subtle text-primary-emphasis rounded-pill">Aconselhamento Individual</span>
-                        <span
-                            class="p-3 badge bg-secondary-subtle border border-secondary-subtle text-secondary-emphasis rounded-pill">Terapia de Casal</span>
-                        <span
-                            class="p-3 badge bg-success-subtle border border-success-subtle text-success-emphasis rounded-pill">Gestão Comportamental</span>
-                        <span
-                            class="p-3 badge bg-danger-subtle border border-danger-subtle text-danger-emphasis rounded-pill">Terapia Familiar</span>
-                        <span
-                            class="p-3 badge bg-warning-subtle border border-warning-subtle text-warning-emphasis rounded-pill">Aconselhamento Educacional</span>
+                        <span class="p-3 badge border border-primary-subtle  rounded-pill filter-custom">Aconselhamento
+                            Individual</span>
+                        <span class="p-3 badge border border-primary-subtle  rounded-pill filter-custom">Terapia
+                            de Casal</span>
+                        <span class="p-3 badge border border-primary-subtle  rounded-pill filter-custom">Gestão
+                            Comportamental</span>
+                        <span class="p-3 badge border border-primary-subtle  rounded-pill filter-custom">Terapia
+                            Familiar</span>
+                        <span class="p-3 badge border border-primary-subtle  rounded-pill filter-custom">Aconselhamento
+                            Educacional</span>
                     </div>
                 </section>
                 <section>
-                    <h5 class="text-body-emphasis">Faixa etária</h5>
-                    <div class="d-flex gap-2 justify-content-center py-5">
-                        <span
-                            class="badge bg-primary-subtle border border-primary-subtle text-primary-emphasis rounded-pill">3-5 anos</span>
-                        <span
-                            class="badge bg-secondary-subtle border border-secondary-subtle text-secondary-emphasis rounded-pill">6-12 anos</span>
-                        <span
-                            class="badge bg-success-subtle border border-success-subtle text-success-emphasis rounded-pill">13-18 anos</span>
-                        <span
-                            class="badge bg-danger-subtle border border-danger-subtle text-danger-emphasis rounded-pill">Adultos</span>
-                        <span
-                            class="badge bg-warning-subtle border border-warning-subtle text-warning-emphasis rounded-pill">Pessoa Idosa</span>
+                    <h5 class="position-absolute filter-custom-fxetaria">Faixa etária</h5>
+                    <div class="d-flex gap-2 justify-content-center py-5 position-relative">
+                        <span class="badge border border-primary-subtle  rounded-pill filter-custom">3-5
+                            anos</span>
+                        <span class="badge border border-primary-subtle  rounded-pill filter-custom">6-12
+                            anos</span>
+                        <span class="badge border border-primary-subtle  rounded-pill filter-custom">13-18
+                            anos</span>
+                        <span class="badge border border-primary-subtle  rounded-pill filter-custom">Adultos</span>
+                        <span class="badge border border-primary-subtle  rounded-pill filter-custom">Pessoa
+                            Idosa</span>
+                    </div>
+                </section>
+                <section>
+                    <div id="carouselsm" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <div class="carrossel-bloco">
+                                    <div class="card-custom card m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                    <div class="card card-custom m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                    <div class="card card-custom m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- <img class="d-block w-100" src="..." alt="First slide"> -->
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="carrossel-bloco">
+                                    <div class="card-custom card m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                    <div class="card card-custom m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                    <div class="card card-custom m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <img class="d-block w-100" src="..." alt="Second slide"> -->
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carrossel-bloco">
+                                    <div class="card-custom card m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                    <div class="card card-custom m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                    <div class="card card-custom m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <img class="d-block w-100" src="..." alt="Third slide"> -->
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselsm"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselsm"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </section>
             </main>
-            <footer class="py-3 my-4">
-                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link px-2 text-body-secondary">Sobre 💛</a>
-                    </li>
-                </ul>
-                <p class="text-center text-body-secondary">&copy; 2026 Sound Mind</p>
-            </footer>
         </div>
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-body-secondary">Sobre 💛</a>
+                </li>
+            </ul>
+            <p class="text-center text-body-secondary">&copy; 2026 Sound Mind</p>
+        </footer>
+
     </div>
 
     <!-- não editar - bootstrap -->
