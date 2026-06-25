@@ -1,16 +1,216 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
+
 <body>
-    <p>teste</p>
+    <div>
+        <header class="p-3">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-underline">
+                        <svg class="bi me-2" width="110" height="72" role="img" aria-label="Bootstrap">
+                            <use xlink:href="\images\logo-sound-mind.svg"></use>
+                        </svg>
+                    </a>
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="#" class="nav-link px-2 text-black link-custom">Home</a></li>
+                        <li><a href="#" class="nav-link px-2 text-black link-custom">Para você</a></li>
+                        <li><a href="#" class="nav-link px-2 text-black link-custom">Para especialistas</a></li>
+                    </ul>
+                    <div class="text-end">
+                        <button type="button" class="btn btn-link text-black link-custom">Criar conta</button>
+                        <button type="button" class="btn btn-primary me-2 btn-custom">
+                            Agendar consulta
+                        </button>
+                        <button type="button" class="btn btn-primary btn-custom">Entrar</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <main>
+                <section>
+                    <div class="my-1 position-relative banner-custom">
+                        <div class="rounded-3 text-end">
+                            <!-- bg-body-tertiary -->
+                            <div
+                                class="d-flex flex-column text-center p-2 justify-content-between align-items-center banner-custom-text position-absolute gap-5">
+                                <h1 class="text-body-emphasis">Encontre o suporte <br> necessário <br> para cuidar da
+                                    sua saúde <br>
+                                    mental
+                                    ✨</h1>
+                                <div class="d-inline-flex gap-2">
+                                    <button class="btn btn-primary btn-custom text-center" type="button">
+                                        Agendar demonstração
+                                    </button>
+                                </div>
+                            </div>
+                            <svg class="bi mb-0 mt-4 mr-0" style="color: var(--bs-indigo)" width="750" height="690"
+                                aria-hidden="true">
+                                <use class="p-2" xlink:href="\images\image-central-index.svg"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h2 class="text-center mt-4 h2-filter-custom">Conheça os profissionais</h2>
+                    <div class="d-flex gap-2 justify-content-center py-5">
+                        <span class="p-3 badge border border-primary-subtle  rounded-pill filter-custom">Aconselhamento
+                            Individual</span>
+                        <span class="p-3 badge border border-primary-subtle  rounded-pill filter-custom">Terapia
+                            de Casal</span>
+                        <span class="p-3 badge border border-primary-subtle  rounded-pill filter-custom">Gestão
+                            Comportamental</span>
+                        <span class="p-3 badge border border-primary-subtle  rounded-pill filter-custom">Terapia
+                            Familiar</span>
+                        <span class="p-3 badge border border-primary-subtle  rounded-pill filter-custom">Aconselhamento
+                            Educacional</span>
+                    </div>
+                </section>
+                <section>
+                    <h5 class="position-absolute filter-custom-fxetaria">Faixa etária</h5>
+                    <div class="d-flex gap-2 justify-content-center py-5 position-relative">
+                        <span class="badge border border-primary-subtle  rounded-pill filter-custom">3-5
+                            anos</span>
+                        <span class="badge border border-primary-subtle  rounded-pill filter-custom">6-12
+                            anos</span>
+                        <span class="badge border border-primary-subtle  rounded-pill filter-custom">13-18
+                            anos</span>
+                        <span class="badge border border-primary-subtle  rounded-pill filter-custom">Adultos</span>
+                        <span class="badge border border-primary-subtle  rounded-pill filter-custom">Pessoa
+                            Idosa</span>
+                    </div>
+                </section>
+                <section>
+                    <div id="carouselsm" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <div class="carrossel-bloco">
+                                    <div class="card-custom card m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                    <div class="card card-custom m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                    <div class="card card-custom m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- <img class="d-block w-100" src="..." alt="First slide"> -->
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="carrossel-bloco">
+                                    <div class="card-custom card m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                    <div class="card card-custom m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                    <div class="card card-custom m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <img class="d-block w-100" src="..." alt="Second slide"> -->
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carrossel-bloco">
+                                    <div class="card-custom card m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                    <div class="card card-custom m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                    <div class="card card-custom m-5" style="width: 18rem;">
+                                        <img src="/images/image-profissionais.png" class="card-img-top p-2" alt="...">
+                                        <div class="card-body ">
+                                            <h5 class="card-title">Ana Carolina</h5>
+                                            <p class="card-text">Crianças</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <img class="d-block w-100" src="..." alt="Third slide"> -->
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselsm"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselsm"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link px-2 text-body-secondary">Sobre 💛</a>
+                </li>
+            </ul>
+            <p class="text-center text-body-secondary">&copy; 2026 Sound Mind</p>
+        </footer>
+
+    </div>
+
     <!-- não editar - bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
