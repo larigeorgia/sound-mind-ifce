@@ -205,14 +205,10 @@ header{
 .avaliacao-img {
     width: 100px;
     height: 100px;
-    background-color: #d9d9d9;
     border-radius: 50%;
+    object-fit: cover;
+    display: block;
     margin: 0 auto 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.85rem;
-    color: var(--cor-texto);
 }
 
 .avaliacao-card p {
