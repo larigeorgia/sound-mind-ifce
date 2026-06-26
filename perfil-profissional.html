@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil Profissional</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset-root.css">
+    <link rel="stylesheet" href="css/media-queries.css" media="(max-width:1400px)">
+
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap"
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -13,20 +16,62 @@
 </head>
 
 <body>
-    <header class="p-3">
-        <div class="container">
-            <div class="d-flex flex-wrap flex-row align-items-center justify-content-center justify-content-lg-start">
+    <header class="p-0">
+        <div>
+            <nav class="d-block d-lg-none nav-mobile navbar navbar-expand-lg" aria-label="Eleventh navbar example">
+                <div class="container-fluid">
+                    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark ">
+                        <svg class="bi me-2" width="110" height="72" role="img" aria-label="Bootstrap">
+                            <use xlink:href="images\logo-sound-mind.svg"></use>
+                        </svg>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarsExample09">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#">Para você</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-disabled="true" href="perfil-profissional.html">Para
+                                    especialistas</a>
+                            </li>
+                            <div class="navbar-nav g-5">
+                                <li class="nav-item">
+                                    <button class="nav-link">Criar conta
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="nav-link">Agendar consulta
+                                    </button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="nav-link">Entrar
+                                    </button>
+                                </li>
+                            </div>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="nav-dsk p-2 justify-content-lg-start">
                 <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-underline">
                     <svg class="bi me-2" width="110" height="72" role="img" aria-label="Bootstrap">
-                        <use xlink:href="\images\logo-sound-mind.svg"></use>
+                        <use xlink:href="images\logo-sound-mind.svg"></use>
                     </svg>
                 </a>
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-2 text-black link-custom">Home</a></li>
-                    <li><a href="#" class="nav-link px-2 text-black link-custom">Para você</a></li>
-                    <li><a href="#" class="nav-link px-2 text-black link-custom">Para especialistas</a></li>
+                    <li><a href="index.html" class="nav-link px-2 text-black link-custom">Home</a></li>
+                    <li><a href="sobre.html" class="nav-link px-2 text-black link-custom">Para você</a></li>
+                    <li><a href="perfil-profissional.html" class="nav-link px-2 text-black link-custom">Para
+                            especialistas</a></li>
                 </ul>
-                <div class="text-end">
+                <div class="text-end p-4">
                     <button type="button" class="btn btn-link text-black link-custom">Criar conta</button>
                     <button type="button" class="btn btn-primary me-2 btn-custom">
                         Agendar consulta
@@ -37,21 +82,21 @@
         </div>
     </header>
     <main>
-        
+
     </main>
     <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
             <li class="nav-item">
-                <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+                <a href="index.html" class="nav-link px-2 text-dark">Home</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+                <a href="contato.html" class="nav-link px-2 text-dark">Contato</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link px-2 text-body-secondary">Sobre 💛</a>
+                <a href="sobre.html" class="nav-link px-2 text-dark">Sobre 💛</a>
             </li>
         </ul>
-        <p class="text-center text-body-secondary">&copy; 2026 Sound Mind</p>
+        <p class="text-center text-dark">&copy; 2026 Sound Mind</p>
     </footer>
     <!-- não editar - bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
