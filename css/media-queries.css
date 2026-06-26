@@ -1,4 +1,5 @@
 @import "style.css";
+@import "reset-root.css";
 
 
 /* 1400*/
@@ -185,4 +186,27 @@
 
     }
 
+}
+
+@media (max-width: 768px) {
+    .contato-section {
+        padding: 3rem 1rem;
+    }
+
+    .titulo-contato {
+        font-size: 1.5rem;
+    }
+
+    .formulario-contato {
+        padding: 1.5rem;
+    }
+
+    .avaliacoes-section {
+        padding: 3rem 1rem;
+    }
+
+    .titulo-avaliacoes {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
 }
